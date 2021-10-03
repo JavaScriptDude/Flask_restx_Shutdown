@@ -7,7 +7,7 @@ This sample uses [flask_restx](https://flask-restx.readthedocs.io/en/latest/) an
 
 It may seem contrived but this is a good example of where some testing can be done which requires user interaction and a web browser session.
 
-This sample can be seen as a possible workaround for the deprecation of [`werkzeug.server.shutdown`](https://github.com/plotly/jupyter-dash/issues/63]) although, this does require running all resources through [flask_restx](https://flask-restx.readthedocs.io/en/latest/) .
+This sample can be seen as a possible workaround for the deprecation of [`werkzeug.server.shutdown`](https://github.com/pallets/werkzeug/issues/1752) although, this does require running all resources through [flask_restx](https://flask-restx.readthedocs.io/en/latest/) .
 
 To run:
 ```python3 sample.py```
